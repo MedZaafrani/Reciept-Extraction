@@ -1,11 +1,10 @@
 # 🧾 Smart Receipt OCR Backend
 
-This is the backend server for the **Smart Shopping Lists App**, specifically responsible for handling **receipt image extraction** using **OCR** and **Generative AI (Gemini)** to automatically identify products, prices, quantities, and totals from scanned receipts.
+This is the backend server for the **Smart Shopping Lists App**, specifically responsible for handling **receipt image extraction** using **OCR** and **Generative AI ** to automatically identify products, prices, quantities, and totals from scanned receipts.
 
 ## 💡 Features
 
 - Accepts image + raw OCR text input (via `ML Kit`) from the mobile app.
-- Uses **Google Gemini** with a **custom prompt** to analyze receipts.
 - Extracts and returns structured product data (name, quantity, price, total).
 - Cleans up temporary files automatically after processing.
 - Fast, lightweight Express.js server using multer for file uploads.
@@ -18,14 +17,14 @@ This is the backend server for the **Smart Shopping Lists App**, specifically re
    - Stores the file temporarily.
    - Reads it into base64.
    - Sends it along with the raw text and a custom prompt to Gemini.
-4. Gemini responds with a structured JSON of items, total, and store.
+4.  Server responds with a structured JSON of items, total, and store.
 5. The result is sent back to the app for display and confirmation.
 
 ## 📦 Tech Stack
 
 - **Node.js + Express**
 - **Multer** for image upload handling
-- **Google Gemini API** (Generative AI model)
+- **Generative AI model** 
 - **CORS**, **helmet** for security
 
 
