@@ -1,6 +1,6 @@
 # 🧾 Smart Receipt OCR Backend
 
-This is the backend server for the **Smart Shopping Lists App**, specifically responsible for handling **receipt image extraction** using **OCR** and **Generative AI ** to automatically identify products, prices, quantities, and totals from scanned receipts.
+This is the backend server for the **Smart Shopping Lists App**, specifically responsible for handling **receipt image extraction** using **OCR** and **Generative AI** to automatically identify products, prices, quantities, and totals from scanned receipts.
 
 ## 💡 Features
 
